@@ -4,7 +4,7 @@ let buyNow = document.createElement('a');
 buyNow.innerHTML = "Buy Now!";
 buyNow.id = 'cta';
 // after the last <p>
-document.getElementsByTagName('p')[(document.getElementsByTagName('p').length - 1)].append(buyNow);
+document.getElementsByTagName('p')[(document.getElementsByTagName('p').length - 1)].parentNode.append(buyNow);
 
 // Access (read) the data-color attribute of the <img>,
 // log to the console
