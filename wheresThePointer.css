@@ -7,3 +7,11 @@ td {
   width: 75px;
   height: 75px
 }
+
+.ready {
+  background-color: white;
+}
+
+.clicked {
+  background-color: pink;
+}
